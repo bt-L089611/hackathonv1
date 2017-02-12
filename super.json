@@ -1,0 +1,26 @@
+{
+	
+	"questions" : [ {
+		"text" : "Here is your forcast of your super ?",
+		"voice" : "Here is your forcast of your super ?",
+		"answers" : ["ok","fine","fantastic"],
+		"positive" : { "action" : "question" , "index" : 1 } ,
+		"negative" : { "action" : "question" , "index" : 2 } 
+	},
+	{
+		"text" : "Get some contribution from your spouse.",
+		"voice" : "Get some contribution from your spouse.",
+		"answers" : ["ok","yes","fine"],
+		"positive" : { "action" : "question" , "index" : 2 },
+		"negative" : { "action" : "question" , "index" : 2 }
+	},
+	{
+		"text" : "I will speak to your husband. Please ask him to accpet my request",
+		"voice" : "I will speak to your husband. Please ask him to accpet my request",
+		"answers" : ["ok"],
+		"positive" : { "action" : "end" } ,
+		"negative" : { "action" : "end"  } 
+	} ]
+	
+	
+}

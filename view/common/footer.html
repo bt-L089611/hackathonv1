@@ -1,0 +1,30 @@
+<div id="footerGroup" ng-controller="footerController">
+	<div class="footer visible-sm visible-md visible-lg footer-wbc2-med">
+
+		<div class="row">
+			<div class="col-sm-1 col-xs-1 col-md-1 col-lg-1">
+				<div class="icon icon-size-md footer-left" style="background-image:url('img/icon_user.png');background-repeat: no-repeat; background-size: cover;">
+
+				</div>
+			</div>
+			<div class="col-sm-10 col-xs-10 col-md-10 col-lg-10">
+				<p >
+					{{usertalktext}}
+				</p>
+			</div>
+			<div class="col-sm-1 col-xs-1 col-md-1 col-lg-1">
+
+				<div class="icon icon-size-md footer-left" ng-click="useraction();"
+					style="background-image:url('img/icon_speech_start.png');background-repeat: no-repeat; background-size: cover;padding-right:10px;" ng-if="user_speech">
+
+				</div>
+				<div class="icon icon-size-md footer-left" ng-click="useraction();"
+									style="background-image:url('img/icon_speech_stop.png');background-repeat: no-repeat; background-size: cover;padding-right:10px;" ng-if="!user_speech">
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+ </div>

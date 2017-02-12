@@ -1,0 +1,26 @@
+{
+	
+	"questions" : [ {
+		"text" : "Hi Melinda, how are you doing today?",
+		"voice" : "Hi Melinda, how are you doing today?",
+		"answers" : ["good","fine","fantastic"],
+		"positive" : { "action" : "question" , "index" : 1 } ,
+		"negative" : { "action" : "question" , "index" : 2 } 
+	},
+	{
+		"text" : "I have few updates regarding your super. Shall we discuss now?",
+		"voice" : "I have few updates regarding your super. Shall we discuss now?",
+		"answers" : ["ok","yes","fine"],
+		"positive" : { "action" : "redirect", "url" : "super" , "index" : 0},
+		"negative" : { "action" : "question" , "index" : 2 }
+	},
+	{
+		"text" : "Sorry, will speak to you later",
+		"voice" : "Sorry, will speak to you later",
+		"answers" : ["ok"],
+		"positive" : { "action" : "end" } ,
+		"negative" : { "action" : "end"  } 
+	} ]
+	
+	
+}
